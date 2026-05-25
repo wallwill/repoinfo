@@ -31,6 +31,22 @@ related:
 
 ---
 
+## Examples
+
+Example `repoinfo.yml` files are available for common repository shapes across older and newer enterprise stacks:
+
+- C / Oracle / Unix batch
+- Java Struts webapp
+- .NET WebForms on IIS
+- Java Spring Boot API
+- Node / React UI
+- Python FastAPI ML service
+- Go Kubernetes service
+
+See the `/examples` directory.
+
+---
+
 ## Why?
 
 Repositories contain relationships that are difficult to infer reliably.
