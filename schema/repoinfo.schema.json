@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/wallwill/repoinfo/main/schema/repoinfo.schema.json",
+  "title": "repoinfo.yml",
+  "description": "A lightweight, repo-native file for declaring repository identity, stack, and relationships.",
+  "type": "object",
+  "required": [
+    "apiVersion",
+    "repo",
+    "stack",
+    "related"
+  ],
+  "properties": {
+    "apiVersion": {
+      "type": "string",
+      "const": "repoinfo/v1"
+    },
+    "repo": {
+      "type": "object",
+      "required": [
+        "name",
+        "type"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": true
+    },
+    "stack": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "related": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "patternProperties": {
+    "^x-": true
+  },
+  "additionalProperties": false
+}

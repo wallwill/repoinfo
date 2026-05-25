@@ -12,8 +12,8 @@ Initial specification release.
 - Core schema: `apiVersion`, `repo`, `stack`, `related`
 - `x-` extension convention for organisation-specific fields
 - MIT License
-- SPEC.md — full specification document
-- CONTRIBUTING.md — contribution and governance guidelines
+- SPEC.md - full specification document
+- CONTRIBUTING.md - contribution and governance guidelines
 
 ### Status
 Early release. Stable enough to experiment with. Not yet widely adopted. Backwards compatibility is guaranteed from this version forward.

@@ -31,6 +31,22 @@ related:
 
 ---
 
+## Specification
+
+Read the full specification in [SPEC.md](SPEC.md).
+
+The JSON Schema is available at [schema/repoinfo.schema.json](schema/repoinfo.schema.json) for tools that want to validate `repoinfo.yml` files.
+
+---
+
+## Examples
+
+Example `repoinfo.yml` files are available in the [examples](examples) directory.
+
+They cover common repository shapes across older and newer enterprise stacks, from C / Oracle / Unix batch jobs to Go / Kubernetes services.
+
+---
+
 ## Why?
 
 Repositories contain relationships that are difficult to infer reliably.

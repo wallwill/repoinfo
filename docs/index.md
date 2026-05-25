@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 # repoinfo.yml
 
 Tell machines what's related.
@@ -7,6 +11,8 @@ Declaratively codify architectural and engineering integrity.
 A lightweight open standard for describing repository relationships, stack, and topology.
 
 One file. Any stack. Any era.
+
+[View on GitHub](https://github.com/wallwill/repoinfo)
 
 ---
 
@@ -43,7 +49,7 @@ Example `repoinfo.yml` files are available for common repository shapes across o
 - Python FastAPI ML service
 - Go Kubernetes service
 
-See the `/examples` directory.
+See the [examples](examples.html) page or browse the [`/examples`](https://github.com/wallwill/repoinfo/tree/main/examples) directory.
 
 ---
 
@@ -62,6 +68,8 @@ Examples include:
 - solution topology
 
 `repoinfo.yml` provides explicit repository context for humans, tooling, and AI systems.
+
+Large software estates are rarely all-modern. Agentic SDLC, platform tooling, and architecture automation need reliable context across legacy batch jobs, enterprise web applications, services, UIs, data pipelines, and cloud-native systems. `repoinfo.yml` gives each repository a small, durable context file without requiring a central catalog first.
 
 ---
 
@@ -102,3 +110,5 @@ Inference changes. Relationships persist.
 Early draft specification.
 
 Contributions, discussion, and experimentation welcome.
+
+Read the [specification](spec.html), browse [examples](examples.html), or see how to [contribute](contributing.html).

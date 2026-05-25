@@ -42,9 +42,9 @@ Typos, clarity improvements, and better examples are always welcome and can go s
 Core spec changes follow this process:
 
 1. **Open an issue** describing the problem and proposed change.
-2. **Discussion period** — at least 14 days for community input.
-3. **Consensus** — changes should have clear support and no strong objections.
-4. **PR** — once consensus is reached, a PR implements the change.
+2. **Discussion period** - at least 14 days for community input.
+3. **Consensus** - changes should have clear support and no strong objections.
+4. **PR** - once consensus is reached, a PR implements the change.
 5. **Version bump** if the change affects the schema.
 
 Changes that break backwards compatibility will not be accepted.
@@ -53,7 +53,7 @@ Changes that break backwards compatibility will not be accepted.
 
 ## Extensions
 
-If you need something the core spec doesn't cover, use the `x-` prefix. You don't need to open an issue for this — extensions are intentionally ungoverned. If your extension proves widely useful, bring it back as a proposal for the core spec.
+If you need something the core spec doesn't cover, use the `x-` prefix. You don't need to open an issue for this - extensions are intentionally ungoverned. If your extension proves widely useful, bring it back as a proposal for the core spec.
 
 ---
 
