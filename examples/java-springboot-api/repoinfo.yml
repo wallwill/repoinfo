@@ -1,0 +1,18 @@
+apiVersion: repoinfo/v1
+
+repo:
+  name: order-management-api
+  type: service
+
+stack:
+  - java
+  - springboot
+  - postgres
+  - rabbitmq
+  - git
+
+related:
+  - order-management-ui
+  - inventory-service
+  - payment-service
+  - order-events

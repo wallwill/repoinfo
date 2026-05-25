@@ -1,0 +1,19 @@
+apiVersion: repoinfo/v1
+
+repo:
+  name: fraud-scoring-inference
+  type: service
+
+stack:
+  - python
+  - fastapi
+  - pytorch
+  - kubernetes
+  - terraform
+  - git
+
+related:
+  - transaction-stream
+  - feature-store
+  - model-training-pipeline
+  - fraud-case-management-ui

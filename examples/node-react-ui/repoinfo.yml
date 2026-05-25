@@ -1,0 +1,18 @@
+apiVersion: repoinfo/v1
+
+repo:
+  name: store-fulfillment-ui
+  type: ui
+
+stack:
+  - node
+  - typescript
+  - react
+  - vite
+  - git
+
+related:
+  - store-fulfillment-api
+  - inventory-availability-service
+  - order-management-api
+  - associate-auth

@@ -1,0 +1,18 @@
+apiVersion: repoinfo/v1
+
+repo:
+  name: customer-service-webforms
+  type: webapp
+
+stack:
+  - dotnet-framework
+  - aspnet-webforms
+  - iis
+  - sql-server
+  - svn
+
+related:
+  - customer-profile-db
+  - billing-service
+  - authentication-directory
+  - customer-support-crm

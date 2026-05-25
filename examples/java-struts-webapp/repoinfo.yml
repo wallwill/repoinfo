@@ -1,0 +1,19 @@
+apiVersion: repoinfo/v1
+
+repo:
+  name: provider-credentialing-portal
+  type: webapp
+
+stack:
+  - java
+  - struts
+  - jsp
+  - weblogic
+  - oracle
+  - cvs
+
+related:
+  - provider-master-db
+  - credentialing-workflow-service
+  - document-imaging-system
+  - provider-directory-api

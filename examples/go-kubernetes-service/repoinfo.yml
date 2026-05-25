@@ -1,0 +1,19 @@
+apiVersion: repoinfo/v1
+
+repo:
+  name: vehicle-telemetry-ingestion
+  type: service
+
+stack:
+  - go
+  - grpc
+  - kafka
+  - kubernetes
+  - helm
+  - git
+
+related:
+  - vehicle-device-gateway
+  - telemetry-events
+  - fleet-analytics-pipeline
+  - operations-monitoring-dashboard
