@@ -2,7 +2,7 @@
 
 Tell machines what's related.
 
-Declaritively codify architectural and engineering integrity.
+_Declaratively_ codify architectural and engineering integrity.
 
 A lightweight open standard for describing repository relationships, stack, and topology.
 
