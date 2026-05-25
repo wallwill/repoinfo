@@ -6,6 +6,8 @@ Declaritively codify architectural and engineering integrity.
 
 A lightweight open standard for describing repository relationships, stack, and topology.
 
+One file. Any stack. Any era.
+
 ---
 
 ## Example
